@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80cf546609b575419ed27b65220a2c9, type: 3}
+  m_Name: 4-Way Room
+  m_EditorClassIdentifier: 
+  RoomPrefab: {fileID: 4322384042577832379, guid: d9a14c786b73ed9499dacb403ad6eff9, type: 3}
+  RoomHeight: 27
+  RoomWidth: 48
+  Directions: 278
+  _exitLocations:
+  - Direction: 3
+    Position: {x: -0.5, y: 0}
+    WorldPositionOffset: {x: 24, y: -0}
+  - Direction: 4
+    Position: {x: 0.5, y: 0}
+    WorldPositionOffset: {x: -24, y: -0}
+  - Direction: 1
+    Position: {x: 0, y: 0.5}
+    WorldPositionOffset: {x: -0, y: -13.5}
+  - Direction: 2
+    Position: {x: 0, y: -0.5}
+    WorldPositionOffset: {x: -0, y: 13.5}
+  SingleExitOnly: 0
+  LockExitsOnEntry: 0
+  TotalExits: 4

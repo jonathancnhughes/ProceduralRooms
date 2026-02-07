@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 919c6c8b7c2b4d440a4ef44ea8ec9581, type: 3}
+  m_Name: Demo Room Pool
+  m_EditorClassIdentifier: 
+  _startingRoom: {fileID: 11400000, guid: d7998889e593831449f0862870ec43de, type: 2}
+  Rooms:
+  - {fileID: 11400000, guid: afb469854643d25499326b4dad2d9957, type: 2}
+  - {fileID: 11400000, guid: d59a0821b308df547bceb0081295308a, type: 2}
+  - {fileID: 11400000, guid: 438e8c741c1886f438d0beb731f41442, type: 2}
+  - {fileID: 11400000, guid: a7c69f4b6f2937140820eece6b239e30, type: 2}
+  - {fileID: 11400000, guid: 0086476248602b844a885821b82936b3, type: 2}
+  - {fileID: 11400000, guid: aed4896962fccee44b777044da16ef8e, type: 2}
+  - {fileID: 11400000, guid: 0689eae0399846b4ba295e9a824d4b26, type: 2}
+  SpecialRooms:
+  - {fileID: 11400000, guid: 803e8d276e637e041a48914485bc20a5, type: 2}
+  - {fileID: 11400000, guid: 9b08d2783aca13840867e59b07fc15fe, type: 2}

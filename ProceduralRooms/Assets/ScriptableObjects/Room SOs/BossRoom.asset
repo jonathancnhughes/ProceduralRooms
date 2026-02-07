@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6715d9d7413daa44a5c55671c29600e, type: 3}
+  m_Name: BossRoom
+  m_EditorClassIdentifier: 
+  RoomPrefab: {fileID: 2748980982131808429, guid: a6ed975a9c61d85419e22f1d79ed5ce2, type: 3}
+  RoomHeight: 27
+  RoomWidth: 48
+  Directions: 0
+  _exitLocations:
+  - Direction: 3
+    Position: {x: -0.5, y: 0}
+    WorldPositionOffset: {x: 24, y: -0}
+  - Direction: 4
+    Position: {x: 0.5, y: 0}
+    WorldPositionOffset: {x: -24, y: -0}
+  - Direction: 1
+    Position: {x: 0, y: 0.5}
+    WorldPositionOffset: {x: -0, y: -13.5}
+  - Direction: 2
+    Position: {x: 0, y: -0.5}
+    WorldPositionOffset: {x: -0, y: 13.5}
+  SingleExitOnly: 1
+  LockExitsOnEntry: 1
+  TotalExits: 0
+  SelectionChanceAfterSpawningXRooms:
+  - 0
+  - 0
+  - 0
+  - 0.5
+  - 0.75
+  ResetAfterAddingOtherSpecailRoom: 0
